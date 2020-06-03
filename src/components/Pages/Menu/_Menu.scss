@@ -1,0 +1,25 @@
+div.menu__container {
+  height: 1000px;
+  width: 100%;
+  background-image: url('../../images/menu.jpg');
+
+  text-align: center;
+  font-size: 25px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.menu__container h2 {
+  display: block;
+  margin-top: 50px;
+  font-size: 80px;
+  color: white;
+}
+
+div.menu__container div {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+}

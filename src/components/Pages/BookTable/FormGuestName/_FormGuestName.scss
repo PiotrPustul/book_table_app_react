@@ -1,0 +1,95 @@
+div.Form__container {
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    border: 1px gray solid;
+    color: #3a3838;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.Form__title {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px grey solid;
+    font-weight: bold;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        outline: none;
+        text-transform: uppercase;
+    }
+}
+
+div.FormFirstLine {
+    height: 125px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+
+        label {
+            text-align: center;
+        }
+
+        input {
+            height: 50px;
+            width: 240px;
+            background-color: lightgray;
+            border-radius: 10px;
+            border: 1px lightgray solid;
+            outline: none;
+            padding: 0 10px;
+        }
+    }
+}
+
+div.FormSecondLine {
+    height: 120px;
+    background-color: white;
+    border-bottom: 1 gray soli;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+
+        label {
+            text-align: center;
+        }
+
+        input {
+            height: 50px;
+            width: 370px;
+            background-color: lightgray;
+            border-radius: 10px;
+            border: 1px lightgray solid;
+            outline: none;
+            padding: 0 10px;
+        }
+    }
+}
+
+// div.Form_add_guest {
+//     height: 50px;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+// }

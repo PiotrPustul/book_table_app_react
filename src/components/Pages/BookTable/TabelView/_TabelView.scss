@@ -1,0 +1,94 @@
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px grey solid;
+    flex-grow: 1;
+}
+
+div.tabel__view {
+    height: 80%;
+    width: 50%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: row;
+}
+
+div.first__row {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(194, 194, 194);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.first__row div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid rgb(112, 153, 150);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.first__row div.tableInactive {
+    background-color: rgb(255, 0, 0);
+    border: 2px white solid;
+    pointer-events: none;
+}
+
+div.first__row div.tableBooked {
+    background-color: rgb(94, 93, 93);
+    border: 2px white solid;
+    pointer-events: none;
+}
+
+div.first__row div.tableActive {
+    background-color: rgb(112, 153, 150);
+    border: 2px white solid;
+}
+
+
+
+div.second__row {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(168, 167, 167);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.second__row div {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border: 3px solid rgb(112, 153, 150);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+div.second__row div.tableInactive {
+    background-color: rgb(255, 0, 0);
+    border: 2px white solid;
+    pointer-events: none;
+}
+
+div.second__row div.tableBooked {
+    background-color: rgb(94, 93, 93);
+    border: 2px white solid;
+    pointer-events: none;
+}
+
+div.second__row div.tableActive {
+    background-color: rgb(112, 153, 150);
+    border: 2px white solid;
+}

@@ -1,0 +1,80 @@
+aside {
+    background-color: lightgray;
+    border: 1px grey solid;
+    width: 500px;
+}
+
+div.one {
+    height: 50px;
+    width: 100%;
+    background-color: #cecece;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    padding: 0 10px;
+
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+div.two {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    cursor: pointer;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.two__btns {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    cursor: pointer;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.two__btns__first {
+    width: 100px;
+}
+
+div.two__btns__second {
+    width: 300px;
+}
+
+div.two__btns__third {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        margin-left: 30px;
+    }
+}
+
+div.reserv__btn {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+
+    button {
+        width: 95%;
+        background-color: rgb(112, 153, 150);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+        outline: none;
+    }
+}
