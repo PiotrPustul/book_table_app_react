@@ -22,7 +22,7 @@ class GuestName extends Component {
                         <div>Guest name</div>}
                     <button
                         disabled={isDate ? true : false}
-                        onClick={() => this.handleClick()}>></button>
+                        onClick={() => this.handleClick()}><i className="fas fa-arrow-alt-circle-right"></i></button>
                 </div>
             </>
         );

@@ -68,16 +68,10 @@ class TabelView extends React.Component {
     myFunction = (e) => {
         const tableArr = document.querySelectorAll("div.table")
         this.props.selectTable(e.target.id, tableArr);
-        console.log(e.target.id);
-    };
-
-    componentDidMount() {
-        const abc = document.querySelectorAll("div.table")
-        console.log(abc);
     };
 
     render() {
-        const { choseTable, dateFromCalendar, calendarDate, isGuest, isDate, addGuest, addGuestOnChange, newGuest } = this.props;
+        const { dateFromCalendar, calendarDate, isGuest, isDate, addGuest, addGuestOnChange, newGuest } = this.props;
         return (
             <main>
                 {isGuest && !isDate &&

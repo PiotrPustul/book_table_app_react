@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
+import Footer from './components/footer/footer';
 import Home from './components/Pages/Home/Home';
 import Menu from './components/Pages/Menu/Menu';
 import Contact from './components/Pages/Contact/Contact';
@@ -24,6 +25,9 @@ function App() {
             <Route component={NotFound} />
           </Switch>
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </Router>
     </div>
   );

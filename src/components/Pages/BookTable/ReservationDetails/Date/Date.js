@@ -18,7 +18,9 @@ class Date extends Component {
                 <div className="two__btns__third">
                     <button
                         disabled={isGuest ? true : false}
-                        onClick={() => this.handleClick()}>></button>
+                        onClick={() => this.handleClick()}>
+                        <i className="fas fa-arrow-alt-circle-right"></i>
+                    </button>
                 </div>
             </div>
         );

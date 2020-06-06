@@ -1,4 +1,20 @@
+div.container {
+  position: relative;
+}
+
+div.logo img {
+  max-width: 200px;
+  position: absolute;
+  top: 200px;
+  right: 900px;
+  color: white;
+  z-index: 1;
+}
+
 div.main__home {
-  height: 100vh;
-  // background-image: url('../../images/restaurant_2.jpg');
+  max-width: 100%;
+  height: 646px;
+  position: relative;
+  top: -300px;
+  box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 div.contact__container {
-  height: 800px;
+  height: 747px;
   width: 100%;
 
   display: flex;
@@ -15,6 +15,8 @@ div.contact__container aside {
 div.contact {
   height: 100%;
   width: 70%;
+  background-color: rgb(230, 231, 232);
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -25,19 +27,20 @@ div.contact {
 }
 
 form {
-  display: block;
-  height: 80%;
+  height: 65%;
   width: 80%;
+  display: block;
+  position: relative;
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     color: #20272f;
     margin: 40px 0;
     text-transform: uppercase;
   }
 
   p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -46,25 +49,46 @@ form {
   input {
     height: 40px;
     width: 400px;
-    background-color: #EEEEEE;
-    border: none;
+    background-color: white;
+    border: 1px rgb(195, 195, 195) solid;
+    font-size: 20px;
+    padding-left: 10px;
+    outline: none;
   }
 
   textarea {
-    height: 250px;
-    width: 600px;
-    background-color: #EEEEEE;
-    border: none;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border: 1px rgb(195, 195, 195) solid;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
   }
 
   button {
-    height: 40px;
-    width: 70px;
+    height: 50px;
+    width: 100px;
 
     color: white;
-    background-color: rgb(64, 209, 222);
+    background-color: rgb(219, 186, 0);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 18px;
     margin-top: 10px;
+    letter-spacing: 1px;
+    outline: none;
+    transition: all 0.5s;
+
+    position: absolute;
+    right: 0;
+  }
+
+  button:hover {
+    background-color: rgb(43, 51, 61);
+    color: rgb(238, 232, 170);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
   }
 }

@@ -20,12 +20,14 @@ class Duration extends Component {
                 <div className="two__btns__third">
                     <button
                         disabled={duration <= 1 && durationMin === 0 ? true : null}
-                        onClick={() => this.handleDurationDown()}
-                    >-</button>
+                        onClick={() => this.handleDurationDown()}>
+                        <i className="fas fa-minus-circle"></i>
+                    </button>
                     <button
                         disabled={duration >= 10 ? true : null}
-                        onClick={() => this.handleDurationUp()}
-                    >+</button>
+                        onClick={() => this.handleDurationUp()}>
+                        <i className="fas fa-plus-circle"></i>
+                    </button>
                 </div>
             </div>
         );

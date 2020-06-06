@@ -1,13 +1,15 @@
 import React from 'react';
 import './_Navigation.scss';
 import { NavLink as Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 const Navigation = () => {
   return (
     <div className="header__container">
-      <span className="pub__name">
-        Pomorie Pearl
-        </span>
+      <div>
+        <img src={logo} alt="" />
+
+      </div>
       <nav className="main__nav">
         <ul>
           <li><Link to='/' exact>Home</Link></li>

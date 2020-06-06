@@ -145,8 +145,15 @@ class Book extends Component {
   bookTable = (arr) => {
     let newArr = [...this.state.bookTable];
     newArr.push(this.state.calendarDate, this.state.title, this.state.firstName, this.state.lastName, this.state.email, this.state.phoneNr, this.state.hour, this.state.minutes, this.state.duration, this.state.durationMin, this.state.covers, this.state.tableNr);
-    alert(newArr)
-    console.log(newArr);
+    // alert(newArr)
+    alert(`Reservation details: 
+    Name: ${this.state.title} ${this.state.firstName} ${this.state.lastName}
+    Date: ${this.state.calendarDate.toLocaleString().slice(0, 10)}
+    Time: ${this.state.hour}:${this.state.minutes < 10 ? `${this.state.minutes}0` : `${this.state.minutes}`}
+    Covers: ${this.state.covers}
+    Duration: ${this.state.duration}:${this.state.durationMin}
+    Tabel: ${this.state.tableNr}
+    `)
     this.setState({
       bookTable: newArr,
       addGuestBtn: false,
@@ -156,7 +163,6 @@ class Book extends Component {
       email: '',
       phoneNr: ''
     })
-    console.log(newArr);
     this.clearDivArr(this.state.divArr)
   };
 
@@ -166,12 +172,9 @@ class Book extends Component {
       if (div.classList.contains("tableActive")) {
         div.classList.remove("tableActive");
         div.classList.add("tableBooked");
-
-        console.log('dziala');
       }
       if (div.classList.contains("tableInactive")) {
         div.classList.remove("tableInactive");
-        console.log('dzial2');
       }
       console.log(div.classList.value);
     })

@@ -16,14 +16,20 @@ div.Form__title {
     background-color: white;
     border-bottom: 1px grey solid;
     font-weight: bold;
+    font-size: 18px;
     padding: 0 10px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     button {
+        height: 40px;
+        width: 120px;
+        font-size: 18px;
         border: none;
-        background-color: white;
+        border-radius: 10px;
+        background-color: rgb(209, 180, 15);
         cursor: pointer;
         outline: none;
         text-transform: uppercase;
@@ -86,10 +92,3 @@ div.FormSecondLine {
         }
     }
 }
-
-// div.Form_add_guest {
-//     height: 50px;
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: center;
-// }
