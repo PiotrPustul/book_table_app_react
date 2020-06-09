@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/book_table_app_react/static/css/main.f17f03aa.chunk.css",
+    "main.css": "/book_table_app_react/static/css/main.c077f8d9.chunk.css",
     "main.js": "/book_table_app_react/static/js/main.e8b1dc6e.chunk.js",
     "main.js.map": "/book_table_app_react/static/js/main.e8b1dc6e.chunk.js.map",
     "runtime-main.js": "/book_table_app_react/static/js/runtime-main.61449225.js",
@@ -9,10 +9,10 @@
     "static/js/2.4f693bd2.chunk.js": "/book_table_app_react/static/js/2.4f693bd2.chunk.js",
     "static/js/2.4f693bd2.chunk.js.map": "/book_table_app_react/static/js/2.4f693bd2.chunk.js.map",
     "index.html": "/book_table_app_react/index.html",
-    "precache-manifest.963785c581a0650e2f934319a76a1b81.js": "/book_table_app_react/precache-manifest.963785c581a0650e2f934319a76a1b81.js",
+    "precache-manifest.39b3377da50a4d47705c8c062a700597.js": "/book_table_app_react/precache-manifest.39b3377da50a4d47705c8c062a700597.js",
     "service-worker.js": "/book_table_app_react/service-worker.js",
     "static/css/2.6c636ea6.chunk.css.map": "/book_table_app_react/static/css/2.6c636ea6.chunk.css.map",
-    "static/css/main.f17f03aa.chunk.css.map": "/book_table_app_react/static/css/main.f17f03aa.chunk.css.map",
+    "static/css/main.c077f8d9.chunk.css.map": "/book_table_app_react/static/css/main.c077f8d9.chunk.css.map",
     "static/js/2.4f693bd2.chunk.js.LICENSE.txt": "/book_table_app_react/static/js/2.4f693bd2.chunk.js.LICENSE.txt",
     "static/media/img1.jpg": "/book_table_app_react/static/media/img1.b3aae960.jpg",
     "static/media/img2.jpg": "/book_table_app_react/static/media/img2.2f5c9fc7.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.61449225.js",
     "static/css/2.6c636ea6.chunk.css",
     "static/js/2.4f693bd2.chunk.js",
-    "static/css/main.f17f03aa.chunk.css",
+    "static/css/main.c077f8d9.chunk.css",
     "static/js/main.e8b1dc6e.chunk.js"
   ]
 }
