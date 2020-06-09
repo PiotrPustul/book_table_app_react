@@ -1,13 +1,14 @@
 div.container {
+  width: 100%;
   position: relative;
 }
 
 div.logo img {
   max-width: 200px;
   position: absolute;
-  top: 200px;
-  right: 900px;
-  color: white;
+  padding: 0 auto;
+  top: 30%;
+  right: 45%;
   z-index: 1;
 }
 
