@@ -39,7 +39,6 @@ class Book extends Component {
 
   addGuest = () => {
     let copyNewGuest = [...this.state.newGuest];
-    // copyNewGuest.push(this.state.addNewGuest);
     copyNewGuest.push(this.state.title, this.state.firstName, this.state.lastName, this.state.email, Number(this.state.phoneNr))
     this.setState({
       newGuest: copyNewGuest,
