@@ -49,7 +49,7 @@ class Contact extends Component {
     return (
       <div className="contact__container">
         <aside>
-          <iframe title="map" width="100%" height="100%" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=smith%20street%20london+(Tytu%C5%82)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <iframe title="map" width="100%" height="100%" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=smith%20street%20london+(Tytu%C5%82)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
         </aside >
         <div className="contact">
           <form onSubmit={this.handleSubmit}>

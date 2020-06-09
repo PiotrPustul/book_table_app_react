@@ -6,7 +6,6 @@ div.container {
 div.logo img {
   max-width: 200px;
   position: absolute;
-  padding: 0 auto;
   top: 30%;
   right: 45%;
   z-index: 1;
@@ -18,4 +17,12 @@ div.main__home {
   position: relative;
   top: -300px;
   box-sizing: border-box;
+}
+
+div.carousel-root {
+  text-align: center;
+}
+
+li.thumb {
+  width: 300px;
 }
