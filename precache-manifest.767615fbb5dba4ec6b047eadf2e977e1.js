@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74c6682d9dc0419928110161b3aadc72",
+    "revision": "0873127c2dca5a4414c232a3181a00e5",
     "url": "/book_table_app_react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/book_table_app_react/static/css/2.6c636ea6.chunk.css"
   },
   {
-    "revision": "5b172264a8d578e7d5b2",
-    "url": "/book_table_app_react/static/css/main.c077f8d9.chunk.css"
+    "revision": "b97f90f3ba1b0d963799",
+    "url": "/book_table_app_react/static/css/main.cb8af1c5.chunk.css"
   },
   {
     "revision": "a1c708b6a53edded0952",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/book_table_app_react/static/js/2.4f693bd2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b172264a8d578e7d5b2",
-    "url": "/book_table_app_react/static/js/main.e8b1dc6e.chunk.js"
+    "revision": "b97f90f3ba1b0d963799",
+    "url": "/book_table_app_react/static/js/main.0dc32b64.chunk.js"
   },
   {
     "revision": "12103fd1138b37929d93",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e7bcd61bc9825a48a8d519d8088757f1",
     "url": "/book_table_app_react/static/media/logo.e7bcd61b.png"
+  },
+  {
+    "revision": "a039bae97585f9a604f3aa07379b5e8a",
+    "url": "/book_table_app_react/static/media/menu3.a039bae9.jpg"
   }
 ]);

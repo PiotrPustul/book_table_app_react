@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/book_table_app_react/static/css/main.c077f8d9.chunk.css",
-    "main.js": "/book_table_app_react/static/js/main.e8b1dc6e.chunk.js",
-    "main.js.map": "/book_table_app_react/static/js/main.e8b1dc6e.chunk.js.map",
+    "main.css": "/book_table_app_react/static/css/main.cb8af1c5.chunk.css",
+    "main.js": "/book_table_app_react/static/js/main.0dc32b64.chunk.js",
+    "main.js.map": "/book_table_app_react/static/js/main.0dc32b64.chunk.js.map",
     "runtime-main.js": "/book_table_app_react/static/js/runtime-main.61449225.js",
     "runtime-main.js.map": "/book_table_app_react/static/js/runtime-main.61449225.js.map",
     "static/css/2.6c636ea6.chunk.css": "/book_table_app_react/static/css/2.6c636ea6.chunk.css",
     "static/js/2.4f693bd2.chunk.js": "/book_table_app_react/static/js/2.4f693bd2.chunk.js",
     "static/js/2.4f693bd2.chunk.js.map": "/book_table_app_react/static/js/2.4f693bd2.chunk.js.map",
     "index.html": "/book_table_app_react/index.html",
-    "precache-manifest.39b3377da50a4d47705c8c062a700597.js": "/book_table_app_react/precache-manifest.39b3377da50a4d47705c8c062a700597.js",
+    "precache-manifest.767615fbb5dba4ec6b047eadf2e977e1.js": "/book_table_app_react/precache-manifest.767615fbb5dba4ec6b047eadf2e977e1.js",
     "service-worker.js": "/book_table_app_react/service-worker.js",
     "static/css/2.6c636ea6.chunk.css.map": "/book_table_app_react/static/css/2.6c636ea6.chunk.css.map",
-    "static/css/main.c077f8d9.chunk.css.map": "/book_table_app_react/static/css/main.c077f8d9.chunk.css.map",
+    "static/css/main.cb8af1c5.chunk.css.map": "/book_table_app_react/static/css/main.cb8af1c5.chunk.css.map",
     "static/js/2.4f693bd2.chunk.js.LICENSE.txt": "/book_table_app_react/static/js/2.4f693bd2.chunk.js.LICENSE.txt",
     "static/media/img1.jpg": "/book_table_app_react/static/media/img1.b3aae960.jpg",
     "static/media/img2.jpg": "/book_table_app_react/static/media/img2.2f5c9fc7.jpg",
     "static/media/img3.jpg": "/book_table_app_react/static/media/img3.52b88a53.jpg",
     "static/media/img4.jpg": "/book_table_app_react/static/media/img4.122d88bb.jpg",
     "static/media/img5.jpg": "/book_table_app_react/static/media/img5.9ee25884.jpg",
-    "static/media/logo.png": "/book_table_app_react/static/media/logo.e7bcd61b.png"
+    "static/media/logo.png": "/book_table_app_react/static/media/logo.e7bcd61b.png",
+    "static/media/_Menu.scss": "/book_table_app_react/static/media/menu3.a039bae9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.61449225.js",
     "static/css/2.6c636ea6.chunk.css",
     "static/js/2.4f693bd2.chunk.js",
-    "static/css/main.c077f8d9.chunk.css",
-    "static/js/main.e8b1dc6e.chunk.js"
+    "static/css/main.cb8af1c5.chunk.css",
+    "static/js/main.0dc32b64.chunk.js"
   ]
 }
