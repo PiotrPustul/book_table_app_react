@@ -8,7 +8,6 @@ const Navigation = () => {
     <div className="header__container">
       <div>
         <img src={logo} alt="" />
-
       </div>
       <nav className="main__nav">
         <ul>

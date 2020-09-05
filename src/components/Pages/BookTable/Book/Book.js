@@ -175,7 +175,6 @@ class Book extends Component {
       if (div.classList.contains("tableInactive")) {
         div.classList.remove("tableInactive");
       }
-      console.log(div.classList.value);
     })
     this.setState({
       divArr: arrCopy

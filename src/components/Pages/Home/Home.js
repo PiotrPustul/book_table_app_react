@@ -12,7 +12,6 @@ import logo from '../../images/logo.png';
 const Home = () => {
   return (
     <div className="container">
-      {/* <h1>Pomorie Pearl</h1> */}
       <div className="logo">
         <img src={logo} alt="Page logo" />
       </div>
